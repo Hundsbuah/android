@@ -17,54 +17,54 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="temasek/android_build" remote="github" revision="cm-12.0" >
+  <project path="build" name="Hundsbuah/android_build" remote="github" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="temasek/android" remote="github" revision="cm-12.0" />
+  <project path="android" name="Hundsbuah/android" remote="github" revision="cm-12.0" />
 
   <!-- START of temasek -->
-  <project path="frameworks/base" name="temasek/android_frameworks_base" remote="github" revision="cm-12.0" />
-  <project path="frameworks/native" name="temasek/android_frameworks_native" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
-  <project path="packages/services/Telephony" name="temasek/android_packages_services_Telephony" remote="github" revision="cm-12.0" />
-  <project path="system/core" name="temasek/android_system_core" remote="github" revision="cm-12.0" />
-  <project path="system/vold" name="temasek/android_system_vold" remote="github" revision="cm-12.0" />
-  <project path="vendor/cm" name="temasek/android_vendor_cm" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/gps" name="temasek/android_hardware_qcom_gps" remote="github" revision="cm-12.0" />
-  <project path="frameworks/webview" name="temasek/android_frameworks_webview" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/PackageInstaller" name="temasek/android_packages_apps_PackageInstaller" remote="github" revision="cm-12.0" />
-  <project path="frameworks/av" name="temasek/android_frameworks_av" remote="github" revision="cm-12.0" />
-  <project path="packages/providers/MediaProvider" name="temasek/android_packages_providers_MediaProvider" remote="github" revision="cm-12.0" />
-  <project path="external/bluetooth/bluedroid" name="temasek/android_external_bluetooth_bluedroid" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/DeskClock" name="temasek/android_packages_apps_DeskClock" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Mms" name="temasek/android_packages_apps_Mms-caf" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Browser" name="temasek/android_packages_apps_Browser" remote="github" revision="cm-12.0" />
-  <project path="bionic" name="temasek/android_bionic" remote="github" revision="cm-12.0" />
-  <project path="external/sqlite" name="temasek/android_external_sqlite" remote="github" revision="cm-12.0" />
-  <project path="libcore" name="temasek/android_libcore" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Dialer" name="temasek/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Gallery2" name="temasek/android_packages_apps_Gallery2" remote="github" revision="cm-12.0" />
-  <project path="external/jpeg" name="temasek/android_external_jpeg" remote="github" revision="cm-12.0" />
-  <project path="art" name="temasek/android_art" groups="pdk" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Bluetooth" name="temasek/android_packages_apps_Bluetooth" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/media-caf/msm8974" name="temasek/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" />
-  <project path="packages/inputmethods/LatinIME" name="temasek/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Calculator" name="temasek/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
-  <project path="frameworks/support" name="temasek/android_frameworks_support" remote="github" revision="cm-12.0" />
-  <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Email" name="temasek/android_packages_apps_Email" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/UnifiedEmail" name="temasek/android_packages_apps_UnifiedEmail" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/ScreenRecorder" name="temasek/android_packages_apps_ScreenRecorder" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/InCallUI" name="temasek/android_packages_apps_InCallUI" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Camera2" name="temasek/android_packages_apps_Camera2" remote="github" revision="cm-12.0" />
+  <project path="frameworks/base" name="Hundsbuah/android_frameworks_base" remote="github" revision="cm-12.0" />
+  <project path="frameworks/native" name="Hundsbuah/android_frameworks_native" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Settings" name="Hundsbuah/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
+  <project path="packages/services/Telephony" name="Hundsbuah/android_packages_services_Telephony" remote="github" revision="cm-12.0" />
+  <project path="system/core" name="Hundsbuah/android_system_core" remote="github" revision="cm-12.0" />
+  <project path="system/vold" name="Hundsbuah/android_system_vold" remote="github" revision="cm-12.0" />
+  <project path="vendor/cm" name="Hundsbuah/android_vendor_cm" remote="github" revision="cm-12.0" />
+  <project path="hardware/qcom/gps" name="Hundsbuah/android_hardware_qcom_gps" remote="github" revision="cm-12.0" />
+  <project path="frameworks/webview" name="Hundsbuah/android_frameworks_webview" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/PackageInstaller" name="Hundsbuah/android_packages_apps_PackageInstaller" remote="github" revision="cm-12.0" />
+  <project path="frameworks/av" name="Hundsbuah/android_frameworks_av" remote="github" revision="cm-12.0" />
+  <project path="packages/providers/MediaProvider" name="Hundsbuah/android_packages_providers_MediaProvider" remote="github" revision="cm-12.0" />
+  <project path="external/bluetooth/bluedroid" name="Hundsbuah/android_external_bluetooth_bluedroid" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/DeskClock" name="Hundsbuah/android_packages_apps_DeskClock" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Mms" name="Hundsbuah/android_packages_apps_Mms-caf" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Browser" name="Hundsbuah/android_packages_apps_Browser" remote="github" revision="cm-12.0" />
+  <project path="bionic" name="Hundsbuah/android_bionic" remote="github" revision="cm-12.0" />
+  <project path="external/sqlite" name="Hundsbuah/android_external_sqlite" remote="github" revision="cm-12.0" />
+  <project path="libcore" name="Hundsbuah/android_libcore" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Dialer" name="Hundsbuah/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Gallery2" name="Hundsbuah/android_packages_apps_Gallery2" remote="github" revision="cm-12.0" />
+  <project path="external/jpeg" name="Hundsbuah/android_external_jpeg" remote="github" revision="cm-12.0" />
+  <project path="art" name="Hundsbuah/android_art" groups="pdk" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Bluetooth" name="Hundsbuah/android_packages_apps_Bluetooth" remote="github" revision="cm-12.0" />
+  <project path="hardware/qcom/media-caf/msm8974" name="Hundsbuah/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" />
+  <project path="packages/inputmethods/LatinIME" name="Hundsbuah/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Calculator" name="Hundsbuah/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
+  <project path="frameworks/support" name="Hundsbuah/android_frameworks_support" remote="github" revision="cm-12.0" />
+  <project path="frameworks/opt/telephony" name="Hundsbuah/android_frameworks_opt_telephony" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Email" name="Hundsbuah/android_packages_apps_Email" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/UnifiedEmail" name="Hundsbuah/android_packages_apps_UnifiedEmail" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/ScreenRecorder" name="Hundsbuah/android_packages_apps_ScreenRecorder" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/InCallUI" name="Hundsbuah/android_packages_apps_InCallUI" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Camera2" name="Hundsbuah/android_packages_apps_Camera2" remote="github" revision="cm-12.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
-  <project path="external/libpng" name="temasek/android_external_libpng" remote="github" revision="cm-12.0" />
-  <project path="external/llvm" name="temasek/android_external_llvm" groups="pdk" remote="github" revision="cm-12.0" />
-  <project path="external/wpa_supplicant_8" name="temasek/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/OmniSwitch" name="temasek/android_packages_apps_OmniSwitch" remote="github" revision="cm-12.0" />
-  <project path="external/dhcpcd" name="temasek/android_external_dhcpcd" remote="github" revision="cm-12.0" />
+  <project path="external/libpng" name="Hundsbuah/android_external_libpng" remote="github" revision="cm-12.0" />
+  <project path="external/llvm" name="Hundsbuah/android_external_llvm" groups="pdk" remote="github" revision="cm-12.0" />
+  <project path="external/wpa_supplicant_8" name="Hundsbuah/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/OmniSwitch" name="Hundsbuah/android_packages_apps_OmniSwitch" remote="github" revision="cm-12.0" />
+  <project path="external/dhcpcd" name="Hundsbuah/android_external_dhcpcd" remote="github" revision="cm-12.0" />
   <!-- END of temasek -->
 
 
